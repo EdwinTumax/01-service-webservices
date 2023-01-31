@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/edwintumax/Documents/kinal/net/prod/WebServicesEnrollment/WebServicesEnrollment.csproj": {}
+  },
+  "projects": {
+    "/Users/edwintumax/Documents/kinal/net/prod/WebServicesEnrollment/WebServicesEnrollment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/edwintumax/Documents/kinal/net/prod/WebServicesEnrollment/WebServicesEnrollment.csproj",
+        "projectName": "WebServicesEnrollment",
+        "projectPath": "/Users/edwintumax/Documents/kinal/net/prod/WebServicesEnrollment/WebServicesEnrollment.csproj",
+        "packagesPath": "/Users/edwintumax/.nuget/packages/",
+        "outputPath": "/Users/edwintumax/Documents/kinal/net/prod/WebServicesEnrollment/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/edwintumax/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SoapCore": {
+              "target": "Package",
+              "version": "[1.1.0.28, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
